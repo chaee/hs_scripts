@@ -274,13 +274,13 @@
 │   ├── ghc_test.tsv
 │   └── ghc_train.tsv
 ├── YH_onedrive.txt
-├── call-me-sexist-but # done
+├── call-me-sexist-but # debug tbd
 │   ├── DATASTATEMENT.md
 │   ├── README.md
 │   ├── scales.csv
 │   ├── sexism_annotations.csv
 │   └── sexism_data.csv
-├── chess_racism # no data - need recreation
+├── chess_racism # no data - recreation - debug tbd
 │   ├── README.md
 │   └── recreate_dataset
 │       ├── comment_ids.txt

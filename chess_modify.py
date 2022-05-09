@@ -3,6 +3,7 @@ ds = '/Users/yunchaewon/gesis/datasets/chess_racism/recreate_dataset/sample_comm
 df = pd.read_json(ds, orient='records', typ='series', dtype=dict)
 new_df = pd.DataFrame({'text':[]})
 new_df['text'] = df.values
+new_df.loc[:, "text"] = new_df["text"].apply(lambda x : x.replace('\n', '\\n'))
 new_df['label'] = 'benign chess'
 new_df['language'] = 'en'
 new_df['source'] = 'sarkar2021en'

@@ -13,5 +13,5 @@ col_order = ['text', 'label', 'language', 'source', 'dataset']
 new_df = new_df.reindex(columns=col_order)
 
 print(new_df.head())
-new_df.to_csv('../formatted/samory2021en.csv', index=False, sep='\t')
+new_df.to_csv('formatted/samory2021en.csv', index=False, sep='\t')
 

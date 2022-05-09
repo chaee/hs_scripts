@@ -1,0 +1,532 @@
+.
+├── AMI_IBEREVAL2018 #password protected
+│   ├── AMI - Guidelines.pdf
+│   ├── en_AMI_TestSet.xlsx 
+│   ├── en_AMI_TrainingSet_NEW.xlsx
+│   ├── es_AMI_TestSet.xlsx
+│   └── es_AMI_TrainingSet_NEW.xlsx
+├── AbuseEval # no data
+│   ├── LICENSE.txt
+│   ├── README.md
+│   ├── _LREC_2020__I_Feel_Offended__Don_t_Be_Abusive_camera-ready.pdf
+│   ├── abusive_explicit_implicit_tree-2.png
+│   ├── data
+│   │   ├── abuseval_labels # empty folder 
+│   │   └── offenseval_explicit_implicit # empty folder
+│   ├── dictionary-based_experiments
+│   │   ├── classify_abusivevalpy.py
+│   │   ├── classify_offenseval.py
+│   │   └── evaluation.py
+│   └── keywords
+│       ├── keywords_offenseval_test.txt
+│       └── keywords_offenseval_train.txt
+├── CONAN
+│   ├── CONAN
+│   │   ├── CONAN.csv
+│   │   └── CONAN.json
+│   ├── Multitarget-CONAN
+│   │   ├── Multitarget-CONAN.csv
+│   │   └── Multitarget-CONAN.json
+│   ├── README.md
+│   └── multitarget_KN_grounded_CN
+│       ├── multitarget_KN_grounded_CN.csv
+│       └── multitarget_KN_grounded_CN.json
+├── Cyberbullying
+│   ├── lol_anonymized.sql
+│   └── wow_anonymized.sql
+├── East-Asian-Prejudice
+│   ├── RoBERTa
+│   │   ├── config.json
+│   │   ├── eastasianprejudice_test_predictions.csv
+│   │   ├── eastasianprejudice_test_results.npy
+│   │   ├── eastasianprejudice_train_results.npy
+│   │   ├── merges.txt
+│   │   ├── pytorch_model.bin
+│   │   ├── special_tokens_map.json
+│   │   ├── tokenizer_config.json
+│   │   └── vocab.json
+│   ├── hashtags_stanceTowardsCoronaAndEastAsia
+│   │   ├── hs_asianPrejudice_top1000hashtags_annotated_annotator1.xlsx
+│   │   ├── hs_asianPrejudice_top1000hashtags_annotated_annotator2.xlsx
+│   │   └── hs_asianPrejudice_top1000hashtags_annotated_annotator3.xlsx
+│   ├── hs_AsianPrejudice_20kdataset_cleaned_anonymized.tsv
+│   ├── hs_AsianPrejudice_40kdataset_cleaned_anonymized.tsv
+│   ├── hs_AsianPrejudice_Codebook_vShare.pdf
+│   └── hs_AsianPrejudice_hashtagsThematicReplacements.csv
+├── Ethos-Hate-Speech-Dataset
+│   ├── LICENSE
+│   ├── README.md
+│   ├── __init__.py
+│   ├── colab_requirements.txt
+│   ├── ethos
+│   │   ├── Experimentation_Plan.md
+│   │   ├── __init__.py
+│   │   ├── ethos_data
+│   │   ├── experiments
+│   │   │   ├── utilities
+│   │   │   │   └── __pycache__
+│   │   │   └── weights
+│   │   ├── hs_data
+│   │   └── results
+│   └── requirements.txt
+├── HASOC_english
+│   ├── english_dataset.tsv
+│   └── hasoc2019_en_test-2919.tsv
+├── Harassment-Corpus
+│   ├── Harassment Lexicon.csv
+│   └── README.md
+├── Hate-Speech-towards-Foreigners
+├── HateXplain
+│   ├── Bias_Calculation_NB.ipynb
+│   ├── Data
+│   │   ├── README.md
+│   │   ├── classes.npy
+│   │   ├── classes_two.npy
+│   │   ├── dataset.json
+│   │   └── post_id_divisions.json
+│   ├── Example_HateExplain.ipynb
+│   ├── Explainability_Calculation_NB.ipynb
+│   ├── Figures
+│   │   ├── bias-bnsp.pdf
+│   │   ├── bias-bpsn.pdf
+│   │   ├── bias-subgroup.pdf
+│   │   └── dataset_example.png
+│   ├── LICENSE
+│   ├── Models
+│   │   ├── __init__.py
+│   │   ├── attentionLayer.py
+│   │   ├── bertModels.py
+│   │   ├── otherModels.py
+│   │   └── utils.py
+│   ├── Parameters_description.md
+│   ├── Preprocess
+│   │   ├── __init__.py
+│   │   ├── attentionCal.py
+│   │   ├── dataCollect.py
+│   │   ├── preProcess.py
+│   │   ├── spanMatcher.py
+│   │   └── utils.py
+│   ├── README.md
+│   ├── TensorDataset
+│   │   ├── __init__.py
+│   │   ├── dataLoader.py
+│   │   └── datsetSplitter.py
+│   ├── best_model_json
+│   │   ├── bestModel_bert_base_uncased_Attn_train_FALSE.json
+│   │   ├── bestModel_bert_base_uncased_Attn_train_TRUE.json
+│   │   ├── bestModel_birnn.json
+│   │   ├── bestModel_birnnatt.json
+│   │   ├── bestModel_birnnscrat.json
+│   │   └── bestModel_cnn_gru.json
+│   ├── best_runs.sh
+│   ├── convert_to_word2vec.py
+│   ├── eraserbenchmark
+│   │   ├── LICENSE
+│   │   ├── README.md
+│   │   ├── REPRODUCTION.txt
+│   │   ├── data_exploration.ipynb
+│   │   ├── params
+│   │   ├── rationale_benchmark
+│   │   │   └── models
+│   │   │       └── pipeline
+│   │   └── requirements.txt
+│   ├── manual_training_inference.py
+│   ├── parameters_selection.py
+│   ├── requirements.txt
+│   ├── test_parallel.sh
+│   ├── testing_for_bias.py
+│   ├── testing_with_lime.py
+│   └── testing_with_rational.py
+├── HatefulUsersTwitter
+│   ├── LICENSE.txt
+│   ├── README.md
+│   ├── __init__.py
+│   ├── analysis
+│   │   ├── 1_activity.py
+│   │   ├── 2_creation_date.py
+│   │   ├── 3_centrality.py
+│   │   ├── 4_lexical.py
+│   │   ├── 5_is_spam.py
+│   │   ├── 6_sentiment.py
+│   │   ├── 7_mixing.py
+│   │   ├── __init__.py
+│   │   └── analysis.ipynb
+│   ├── classification
+│   │   ├── __init__.py
+│   │   └── trad_class.py
+│   ├── crawler
+│   │   ├── README.md
+│   │   ├── __init__.py
+│   │   ├── neo4j_schema.py
+│   │   └── rwwj_crawler.py
+│   ├── data
+│   │   ├── README.txt
+│   │   ├── extra
+│   │   └── features
+│   │       ├── tmp
+│   │       └── tmp2
+│   ├── features
+│   │   ├── 1_annotated_graph.py
+│   │   ├── 2_get_user_attributes.py
+│   │   ├── 3_content_attributes1.py
+│   │   ├── 4_content_attributes2.py
+│   │   ├── 5_concat_files.sh
+│   │   ├── 6_users_content.py
+│   │   ├── 7_get_final_files.py
+│   │   ├── __init__.py
+│   │   └── feature_extraction.ipynb
+│   ├── imgs
+│   │   ├── activity.pdf
+│   │   ├── betweenness.pdf
+│   │   ├── created_at.pdf
+│   │   ├── lexical.pdf
+│   │   ├── preprocessing.png
+│   │   ├── sentiment.pdf
+│   │   ├── spam.pdf
+│   │   ├── users.png
+│   │   ├── users_diffusion.png
+│   │   ├── users_net1.png
+│   │   ├── users_net2.png
+│   │   ├── users_net3.png
+│   │   └── users_net4.pdf
+│   ├── preprocessing
+│   │   ├── 1_get_user_graph.py
+│   │   ├── 2_remove_chars.sh
+│   │   ├── 3_get_tweets_table.py
+│   │   ├── 4_get_infected_user_graph.py
+│   │   ├── 5_get_diffusion_graph.py
+│   │   ├── 6_get_users_to_annotate.py
+│   │   ├── README.md
+│   │   ├── __init__.py
+│   │   └── data_processing.ipynb
+│   ├── secrets
+│   │   ├── _twitter_neo4jsecret.json
+│   │   ├── _twitter_secrets.json
+│   │   └── twitter_rwwj_control.json
+│   └── tmp
+│       ├── __init__.py
+│       ├── banned_users.py
+│       ├── created_at.py
+│       └── utils.py
+├── Hatemoji
+│   ├── HatemojiBuild
+│   │   ├── test.csv
+│   │   ├── train.csv
+│   │   └── validation.csv
+│   ├── HatemojiCheck
+│   │   └── test.csv
+│   ├── LICENSE
+│   └── README.md
+├── MLMA_hate_speech
+│   ├── LICENSE
+│   ├── README.md
+│   ├── annotated_data_processing.py
+│   ├── baseline_classifiers.py
+│   ├── constants.py
+│   ├── guidelines.tar
+│   ├── hate_speech_mlma.zip
+│   ├── keywords.txt
+│   ├── notes
+│   ├── pilot_dataset_tweets_only.tar
+│   ├── predictors.py
+│   ├── requirements.txt
+│   ├── run_sluice_net.py
+│   ├── sluice_net.py
+│   └── utils.py
+├── Multimodal-Meme
+│   ├── BiLSTM_VGG16.ipynb
+│   ├── CNN_text_VGG16.ipynb
+│   ├── LR_NB_DNN.ipynb
+│   ├── Modified_Program_to_create_Google_forms
+│   ├── Multimodal_baseline_Functions.py
+│   ├── Program_to_create_Google_forms
+│   ├── README.md
+│   ├── Stacked_LSTM_VGG16.ipynb
+│   ├── WebScrapping.py
+│   └── requirements.txt
+├── NLP_CSS_2017
+│   ├── README.md
+│   ├── benevolent_sexist.tsv
+│   └── hostile_sexist.tsv
+├── SWAD-Repository
+│   ├── Annotation Guidelines Final.pdf
+│   ├── LICENSE
+│   ├── README.md
+│   ├── SWAD v1.tsv
+│   ├── SWAD v2.tsv
+│   └── Source Code
+│       ├── Abusive Language Detection with Swear Words Context.py
+│       ├── TD-BERT.py
+│       ├── ae-lstm.py
+│       ├── at-lstm.py
+│       ├── atae-lstm.py
+│       ├── cabasc.py
+│       ├── custom_layers.py
+│       ├── ian.py
+│       ├── lstm.py
+│       ├── ram.py
+│       ├── tc-lstm.py
+│       └── td-lstm.py
+├── The-Gab-Hate-Corpus
+│   ├── AnnotatorIAT_and_Attitudes.csv
+│   ├── GabHateCorpus_annotations.tsv
+│   ├── GabHateCorpus_trainingmanual.pdf
+│   ├── ghc_test.tsv
+│   └── ghc_train.tsv
+├── YH_onedrive.txt
+├── call-me-sexist-but # done
+│   ├── DATASTATEMENT.md
+│   ├── README.md
+│   ├── scales.csv
+│   ├── sexism_annotations.csv
+│   └── sexism_data.csv
+├── chess_racism # no data - need recreation
+│   ├── README.md
+│   └── recreate_dataset
+│       ├── comment_ids.txt
+│       ├── comment_ids_with_hash.json
+│       ├── get_comments_from_comment_ids.py
+│       ├── recreate_dataset.ipynb
+│       └── utils.py
+├── context_toxicity
+│   ├── LICENSE
+│   ├── README.md
+│   ├── __init__.py
+│   ├── classifiers.py
+│   ├── data
+│   │   ├── CAT_LARGE
+│   │   ├── CAT_SMALL
+│   │   │   └── __init__.py
+│   │   ├── CCC.csv
+│   │   ├── CC_supplementary.pdf
+│   │   └── README.MD
+│   ├── experiment.multi.sh
+│   ├── experiment.single.balanced.sh
+│   ├── experiment.single.standard.sh
+│   ├── experiments.py
+│   ├── requirements.txt
+│   └── utils.py
+├── convabuse
+│   ├── 1_full
+│   │   └── ConvAbuseEMNLPfull.csv
+│   ├── 2_splits
+│   │   ├── ConvAbuseEMNLPtest.csv
+│   │   ├── ConvAbuseEMNLPtrain.csv
+│   │   └── ConvAbuseEMNLPvalid.csv
+│   ├── README.md
+│   └── convabuse.csv
+├── fox-news-comments
+│   ├── AnnotationGuidelineswithExamples.pdf
+│   ├── LICENSE
+│   ├── README.md
+│   ├── annotated-threads
+│   │   ├── 30-comments.txt
+│   │   ├── 31-comments.txt
+│   │   ├── 32-comments.txt
+│   │   ├── 33-comments.txt
+│   │   ├── 35-comments.txt
+│   │   ├── 40-comments.txt
+│   │   ├── 41-comments.txt
+│   │   ├── 42-comments.txt
+│   │   ├── 43-comments.txt
+│   │   ├── 44-comments.txt
+│   │   └── all-comments.txt
+│   ├── comment-url.txt
+│   ├── fox-news-comments.json
+│   └── full-comments-u.json
+├── hate-speech-and-offensive-language
+│   ├── ___All_Errors.txt
+│   └── __hate-speech-and-offensive-language_Error.txt
+├── hate_speech_icwsm18
+│   ├── README.md
+│   ├── hate_keywords.txt
+│   ├── nhsm_datasets
+│   │   ├── ethnicity.txt
+│   │   ├── gender.txt
+│   │   ├── nationality.txt
+│   │   ├── religion.txt
+│   │   └── sexual_orientation.txt
+│   ├── twitter_hashtag_based_datasets
+│   │   ├── ethn_blackpeoplesuck.csv
+│   │   ├── ethn_whitepower.csv
+│   │   ├── istandwithhatespeech.csv
+│   │   └── rel_nomuslimrefugees.csv
+│   └── twitter_key_phrase_based_datasets
+│       ├── archaic_boojie.csv
+│       ├── archaic_chinaman.csv
+│       ├── archaic_hillbilly.csv
+│       ├── archaic_surrendermonkey.csv
+│       ├── archaic_whigger.csv
+│       ├── archaic_whitenigger.csv
+│       ├── archaic_wigerette.csv
+│       ├── archaic_wigger.csv
+│       ├── class_bitterclinger.csv
+│       ├── class_conspiracytheorist.csv
+│       ├── class_redneck.csv
+│       ├── class_rube.csv
+│       ├── class_trailerparktrash.csv
+│       ├── class_whitetrash.csv
+│       ├── disability_retard.csv
+│       ├── disability_retarded.csv
+│       ├── ethn_camelfucker.csv
+│       ├── ethn_coonass.csv
+│       ├── ethn_housenigger.csv
+│       ├── ethn_mooncricket.csv
+│       ├── ethn_nigger.csv
+│       ├── ethn_raghead.csv
+│       ├── ethn_spic.csv
+│       ├── ethn_trailerparktrash.csv
+│       ├── ethn_trailertrash.csv
+│       ├── ethn_wetback.csv
+│       ├── ethn_whitenigger.csv
+│       ├── ethn_whitetrash.csv
+│       ├── gender_bint.csv
+│       ├── gender_cunt.csv
+│       ├── gender_dyke.csv
+│       ├── gender_twat.csv
+│       ├── nation_bamboocoon.csv
+│       ├── nation_camelfucker.csv
+│       ├── nation_chinaman.csv
+│       ├── nation_limey.csv
+│       ├── nation_plasticpaddy.csv
+│       ├── nation_sidewayspussy.csv
+│       ├── nation_surrendermonkey.csv
+│       ├── nation_whigger.csv
+│       ├── nation_whitenigger.csv
+│       ├── nation_wigger.csv
+│       ├── nation_zionazi.csv
+│       ├── rel_camelfucker.csv
+│       ├── rel_muzzie.csv
+│       ├── rel_souptaker.csv
+│       ├── rel_zionazi.csv
+│       ├── sexorient_dyke.csv
+│       └── sexorient_faggot.csv
+├── hatecheck-data
+│   ├── LICENSE
+│   ├── README.md
+│   ├── all_annotations.csv
+│   ├── all_cases.csv
+│   ├── template_placeholders.csv
+│   ├── test_suite_annotations.csv
+│   └── test_suite_cases.csv
+├── hatespeech
+│   ├── NAACL_SRW_2016.csv
+│   ├── NLP+CSS_2016.csv
+│   └── README.md
+├── hatespeech_NAACL_SRW_2016
+│   ├── ___All_Errors.txt
+│   └── __hatespeech_NAACL_SRW_2016_Error.txt
+├── hateval2019
+│   ├── hateval2019_en_dev.csv
+│   ├── hateval2019_en_test.csv
+│   ├── hateval2019_en_train.csv
+│   ├── hateval2019_es_dev.csv
+│   ├── hateval2019_es_test.csv
+│   └── hateval2019_es_train.csv
+├── jigsaw-unintended-bias-in-toxicity-classification
+│   ├── all_data.csv
+│   ├── identity_individual_annotations.csv
+│   ├── sample_submission.csv
+│   ├── test.csv
+│   ├── test_private_expanded.csv
+│   ├── test_public_expanded.csv
+│   ├── toxicity_individual_annotations.csv
+│   └── train.csv
+├── slur-corpus
+│   ├── LICENSE
+│   ├── README.md
+│   ├── kurrek.2020.slur-corpus.csv
+│   ├── kurrek.2020.slur-corpus.json
+│   ├── kurrek.2020.slur-corpus.tsv
+│   ├── kurrek.2020.slur-guide.pdf
+│   └── kurrek.2020.slur-paper.pdf
+├── toxic_spans
+│   ├── ACL2022
+│   │   └── README.md
+│   ├── LICENSE
+│   ├── README.md
+│   ├── SemEval2021
+│   │   ├── README.md
+│   │   ├── ToxicSpans_SemEval21.ipynb
+│   │   ├── __init__.py
+│   │   ├── baselines
+│   │   │   ├── __init__.py
+│   │   │   ├── models.py
+│   │   │   └── spacy_tagging.py
+│   │   ├── data
+│   │   │   ├── __init__.py
+│   │   │   ├── tsd_test.csv
+│   │   │   ├── tsd_train.csv
+│   │   │   └── tsd_trial.csv
+│   │   └── evaluation
+│   │       ├── __init__.py
+│   │       ├── fix_spans.py
+│   │       ├── fix_spans_test.py
+│   │       ├── metrics.py
+│   │       ├── semeval2021.py
+│   │       └── semeval2021_test.py
+│   ├── appen-templates
+│   │   ├── README
+│   │   ├── toxic_spans.cml
+│   │   ├── toxic_spans.css
+│   │   └── toxic_spans.js
+│   └── data
+│       ├── annotations.csv
+│       ├── comments.csv
+│       └── spans.csv
+├── twitter-sentiment-analysis-hatred-speech
+│   ├── test.csv
+│   └── train.csv
+├── ucberkeley-dlab
+│   └── measuring-hate-speech.csv
+└── wiki-detox
+    ├── LICENSE
+    ├── README.md
+    ├── app
+    │   ├── README.md
+    │   ├── app.py
+    │   ├── detox.ini
+    │   ├── model_paths.json
+    │   ├── models
+    │   ├── requirements.txt
+    │   ├── scoring_utils.py
+    │   ├── static
+    │   │   └── js
+    │   ├── sync_models.sh
+    │   └── templates
+    ├── misc
+    │   ├── distributed_tensorflow
+    │   ├── iac
+    │   │   └── src
+    │   └── kaggle
+    │       └── src
+    ├── paper
+    │   ├── 0000_main.tex
+    │   ├── 1000_abstract.tex
+    │   ├── 2000_introduction.tex
+    │   ├── 3000_related_work.tex
+    │   ├── 4000_data.tex
+    │   ├── 5000_modeling.tex
+    │   ├── 6000_analysis.tex
+    │   ├── 7000_conclusion.tex
+    │   ├── 8000_acknowledgements.tex
+    │   ├── 9000_appendix.tex
+    │   ├── bibliography.bib
+    │   ├── chato-notes.sty
+    │   ├── cmm-greek.sty
+    │   ├── related_work.md
+    │   └── sig-alternate.cls
+    ├── requirements.txt
+    └── src
+        ├── __init__.py
+        ├── analysis
+        ├── data_generation
+        │   ├── crowdflower_analysis
+        │   │   └── src
+        │   └── mwdiff
+        ├── figshare
+        ├── modeling
+        ├── retention
+        └── wikilabels
+
+118 directories, 411 files

@@ -2,6 +2,7 @@ import pandas as pd
 df = pd.read_csv('../datasets/call-me-sexist-but/sexism_data.csv', lineterminator='\n')
 new_df = df[['text', 'dataset']].copy()
 new_df.loc[:, "text"] = new_df["text"].apply(lambda x : x.replace('\n', '\\n'))
+new_df.loc[:, "text"] = new_df["text"].apply(lambda x : x.replace('\t', ' '))
 
 #new_df['label'] = [(rdf.toxicity).strip(), str(df.sexist).strip()]
 new_df['label'] = df[df.columns[3:5]].apply(

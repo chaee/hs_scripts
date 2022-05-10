@@ -13,7 +13,7 @@ new_df['label'] = df[df.columns[2:4]].apply(
 )
 
 new_df['source'] = source 
-new_df['language'] = df['cn_id'].apply(lambda x: x[:2])
+new_df['language'] = df['cn_id'].apply(lambda x: x[:2].lower())
 
 col_order = ['text', 'label', 'language', 'source'] #, 'dataset']
 new_df = new_df.reindex(columns=col_order)

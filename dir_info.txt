@@ -31,10 +31,10 @@
 │   └── multitarget_KN_grounded_CN
 │       ├── multitarget_KN_grounded_CN.csv
 │       └── multitarget_KN_grounded_CN.json
-├── Cyberbullying
+├── Cyberbullying # no data
 │   ├── lol_anonymized.sql
 │   └── wow_anonymized.sql
-├── East-Asian-Prejudice
+├── East-Asian-Prejudice # empty folder
 │   ├── RoBERTa
 │   │   ├── config.json
 │   │   ├── eastasianprejudice_test_predictions.csv
@@ -53,7 +53,7 @@
 │   ├── hs_AsianPrejudice_40kdataset_cleaned_anonymized.tsv
 │   ├── hs_AsianPrejudice_Codebook_vShare.pdf
 │   └── hs_AsianPrejudice_hashtagsThematicReplacements.csv
-├── Ethos-Hate-Speech-Dataset
+├── Ethos-Hate-Speech-Dataset #empty folder
 │   ├── LICENSE
 │   ├── README.md
 │   ├── __init__.py

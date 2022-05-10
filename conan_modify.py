@@ -7,7 +7,7 @@ new_df = df[['hateSpeech', 'hsType', 'hsSubType']].copy()
 new_df = new_df.rename(columns={"hateSpeech": "text"})
 
 new_df.loc[:, "text"] = new_df["text"].apply(lambda x : x.replace('\n', '\\n'))
-new_df['label'] = df[df.columns[2:4]].apply(
+new_df['label'] = df[df.columns[3:5]].apply(
     lambda x: ','.join(x.dropna().astype(str)),
     axis=1
 )

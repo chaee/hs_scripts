@@ -4,7 +4,7 @@ import numpy as np
 df = pd.read_csv('formatted/sarkar2021en.csv', lineterminator='\n', sep='\t')
 print(df.head())
 '''
-files = ['formatted/chung2019.csv', 'formatted/chung2021.csv', 'formatted/fanton2021.csv', 'formatted/samory2021en.csv', 'formatted/sarkar2021en.csv']
+files = ['formatted/chung2019.csv', 'formatted/chung2021.csv', 'formatted/fanton2021.csv', 'formatted/samory2021en.csv', 'formatted/sarkar2021en.csv', 'formatted/mandl2019.csv']
 
 df = pd.read_csv('formatted/formatted.csv', lineterminator='\n', sep='\t',delimiter=None)
 df = df[df.language=='en']

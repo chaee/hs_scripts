@@ -20,7 +20,7 @@
 │   └── keywords
 │       ├── keywords_offenseval_test.txt
 │       └── keywords_offenseval_train.txt
-├── CONAN
+├── CONAN # done
 │   ├── CONAN
 │   │   ├── CONAN.csv
 │   │   └── CONAN.json
@@ -31,10 +31,10 @@
 │   └── multitarget_KN_grounded_CN
 │       ├── multitarget_KN_grounded_CN.csv
 │       └── multitarget_KN_grounded_CN.json
-├── Cyberbullying # no data
+├── Cyberbullying # skipped
 │   ├── lol_anonymized.sql
 │   └── wow_anonymized.sql
-├── East-Asian-Prejudice # empty folder
+├── East-Asian-Prejudice  # empty file
 │   ├── RoBERTa
 │   │   ├── config.json
 │   │   ├── eastasianprejudice_test_predictions.csv
@@ -288,7 +288,7 @@
 │       ├── get_comments_from_comment_ids.py
 │       ├── recreate_dataset.ipynb
 │       └── utils.py
-├── context_toxicity
+├── context_toxicity # done
 │   ├── LICENSE
 │   ├── README.md
 │   ├── __init__.py
@@ -306,7 +306,7 @@
 │   ├── experiments.py
 │   ├── requirements.txt
 │   └── utils.py
-├── convabuse
+├── convabuse # done
 │   ├── 1_full
 │   │   └── ConvAbuseEMNLPfull.csv
 │   ├── 2_splits

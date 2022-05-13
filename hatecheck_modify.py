@@ -1,16 +1,12 @@
 import pandas as pd
-ds = '/Users/yunchaewon/gesis/datasets/CONAN/CONAN/CONAN.csv'
+ds = '/Users/yunchaewon/gesis/datasets/hatecheck-data/all_cases.csv'
 df = pd.read_csv(ds) #, lineterminator='\n')
-source = 'chung2019'
+source = 'roettger2020'
 
-new_df = df[['hateSpeech', 'hsType', 'hsSubType']].copy()
-new_df = new_df.rename(columns={"hateSpeech": "text"})
+new_df = df[['test_case', 'label_gold']].copy()
+new_df = new_df.rename(columns={"test_case": "text", 'label_gold':'label'})
 
 new_df.loc[:, "text"] = new_df["text"].apply(lambda x : x.replace('\n', '\\n'))
-new_df['label'] = df[df.columns[2:4]].apply(
-    lambda x: ','.join(x.dropna().astype(str)),
-    axis=1
-)
 
 new_df['source'] = source 
 new_df['language'] = 'en'

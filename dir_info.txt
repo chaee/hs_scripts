@@ -72,10 +72,10 @@
 ├── HASOC_english
 │   ├── english_dataset.tsv
 │   └── hasoc2019_en_test-2919.tsv
-├── Harassment-Corpus
+├── Harassment-Corpus # no tweets
 │   ├── Harassment Lexicon.csv
 │   └── README.md
-├── Hate-Speech-towards-Foreigners
+├── Hate-Speech-towards-Foreigners # empty
 ├── HateXplain
 │   ├── Bias_Calculation_NB.ipynb
 │   ├── Data
@@ -334,10 +334,10 @@
 │   ├── comment-url.txt
 │   ├── fox-news-comments.json
 │   └── full-comments-u.json
-├── hate-speech-and-offensive-language
+├── hate-speech-and-offensive-language # empty
 │   ├── ___All_Errors.txt
 │   └── __hate-speech-and-offensive-language_Error.txt
-├── hate_speech_icwsm18
+├── hate_speech_icwsm18 # small number -> less priority
 │   ├── README.md
 │   ├── hate_keywords.txt
 │   ├── nhsm_datasets

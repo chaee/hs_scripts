@@ -208,7 +208,7 @@
 │       ├── banned_users.py
 │       ├── created_at.py
 │       └── utils.py
-├── Hatemoji
+├── Hatemoji #done
 │   ├── HatemojiBuild
 │   │   ├── test.csv
 │   │   ├── train.csv
@@ -409,14 +409,14 @@
 │   ├── template_placeholders.csv
 │   ├── test_suite_annotations.csv
 │   └── test_suite_cases.csv
-├── hatespeech
+├── hatespeech # no text
 │   ├── NAACL_SRW_2016.csv
 │   ├── NLP+CSS_2016.csv
 │   └── README.md
-├── hatespeech_NAACL_SRW_2016
+├── hatespeech_NAACL_SRW_2016 # no text
 │   ├── ___All_Errors.txt
 │   └── __hatespeech_NAACL_SRW_2016_Error.txt
-├── hateval2019
+├── hateval2019 # no text
 │   ├── hateval2019_en_dev.csv
 │   ├── hateval2019_en_test.csv
 │   ├── hateval2019_en_train.csv
